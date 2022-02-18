@@ -1,0 +1,10 @@
+.divSwiper{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.divSwiper img{
+    width:100%;
+    height: 70vh;
+}

@@ -1,0 +1,25 @@
+.divStore{
+    margin: 0;
+    padding: 0;
+}
+
+.divImg{
+  display: flex;
+    margin: 0 auto;
+  flex-direction: column;
+  max-width: 600px;
+    width: 95%;
+ 
+ 
+
+   
+}
+
+.divImg img{
+    width: 100%;
+    height: 50vh;
+    
+}
+ 
+
+

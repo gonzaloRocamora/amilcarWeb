@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.amilcar{
+    font-size: 21px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(88, 248, 229);
+    text-shadow:
+   
+    0 0 10px rgb(219, 74, 209)
+    0 0 21px rgb(210, 97, 203),
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+      font-family: 'Press Start 2P', cursive;
+}
+.ferreyro{
+    font-size: 21px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(88, 248, 229);
+    text-shadow:
+   
+    0 0 10px rgb(219, 74, 209)
+    0 0 21px rgb(210, 97, 203),
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+      font-family: 'Press Start 2P', cursive;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    
+    background-color: rgb(241, 117, 241, 0.7);
+}
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    
+}
+
+a{
+    text-decoration: none;
+  
+    color: rgb(88, 248, 157);
+    text-shadow:
+      0 0 7px rgb(231, 158, 158),
+      0 0 10px rgb(219, 74, 209),
+      0 0 21px rgb(210, 97, 203),
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+     
+   
+
+        
+        font-family: 'Press Start 2P', cursive;
+    color: rgb(0, 255, 255);
+    font-size: 15px;
+    padding: 10px 7px;
+    
+    cursor: pointer
+}
+
+button{ 
+    padding: 5px 5px;
+    display: none;
+    color: #4fed1e;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.5em;
+    overflow: hidden;
+    background-color:rgb(134, 4, 255);
+    border-radius: 12px;
+    font-family: 'Press Start 2P', cursive;
+   
+   
+}
+button:hover {
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 50px #39ff14;
+}
+
+@media screen and (max-width: 700px){
+ button{
+     display: block ;
+     position: absolute;
+    top:25px;
+    right:15px;
+    font-size: 0.50em;
+     }
+    .divLogo{
+        padding-right: 40%;
+    }
+     .amilcar{
+       font-size: 1.2rem;
+             
+        
+
+    }
+    .ferreyro{
+        font-size: 1.2rem;
+         
+         
+ 
+     }
+    .nav-links{
+    display: none;
+}
+.nav-links-mobile{
+    position:absolute;
+    display: block;
+    list-style: none;
+    background-color: rgba(111, 0, 255, 0.6);
+    left: 0;
+    top : 75px;
+    transition: all 2s ease-in-out;
+    width: 100%;
+    z-index:10;
+
+}
+a{
+    color: rgb(255, 0, 8);
+    text-align: center;
+    padding: 32px;
+    transition: all 2s ease;
+}
+
+}
+
