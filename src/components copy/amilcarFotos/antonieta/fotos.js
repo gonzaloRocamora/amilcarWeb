@@ -23,7 +23,7 @@ const sliderAntonieta = [
   antonieta9,
   antonieta10,
   antonieta11,
-  antonieta12,
+  antonieta12
 ];
 
 export default sliderAntonieta;

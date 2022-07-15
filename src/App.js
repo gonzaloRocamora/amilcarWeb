@@ -8,7 +8,7 @@ import Store from "./components copy/Store/Store";
 import Pasionario from './components copy/amilcarFotos/elPasionario/pasionario'
 import Connect from "./components copy/Connect";
 import "./style.css";
-import Pikachu from "./components copy/amilcarFotos/pikachu/pikachu.js";
+import Pikachu from "./components copy/amilcarFotos/artWork.js";
 import Morrison from "./components copy/amilcarFotos/jimMorrison/morrison.js";
 import Madona from './components copy/amilcarFotos/madonna/Madona.js'
 import Dog from './components copy/amilcarFotos/theDog/dog'
@@ -24,6 +24,7 @@ import Principito from "./components copy/amilcarFotos/principito/principito.js"
 import Queen from "./components copy/amilcarFotos/queen/queen.js";
 import Renata from './components copy/amilcarFotos/renata/renata';
 import Mask from './components copy/amilcarFotos/theMask/mask';
+import ArtWork from "./components copy/amilcarFotos/artWork.js";
 
 function App() {
   return (
@@ -45,61 +46,11 @@ function App() {
           <Route path="/Connect">
             <Connect />
           </Route>
-          <Route path="/Pikachu">
-            <Pikachu />
+                 /*establezco una ruta comun y le paso como parametro un name*/
+          <Route path="/artwork/:name">
+            <ArtWork />
           </Route>
-          <Route path="/morrison">
-            <Morrison />
-          </Route>
-          <Route path='/madona'>
-              <Madona />
-          </Route>
-        <Route path='/pasionario'>
-            <Pasionario />
-          </Route>
-          <Route path='/rico'>
-            <Rico />
-          </Route>
-          <Route path='/dog'>
-            <Dog />
-          </Route>
-          <Route path= '/antonieta'>
-            <Antonieta />
-          </Route>
-          <Route path= '/bird'>
-              <Bird />
-          </Route>
-          <Route path= '/elvis'>
-            <Elvis />
-          </Route>
-        </Switch>
-        <Route path= '/frida'>
-          <Frida />
-        </Route>
-        <Route path='/manu'>
-          <Manu />
-        </Route>
-        <Route path='/marilyn'>
-          <Marilyn />
-        </Route>
-        <Route path='/mazinger'>
-          <Mazinger />
-        </Route>
-        <Route path='/monster'>
-          <Monster />
-        </Route>
-        <Route path='/principito'>
-          <Principito />
-        </Route>
-        <Route path='/queen'>
-          <Queen />
-        </Route>
-        <Route path='/renata'>
-          <Renata />
-        </Route>
-        <Route path='/mask'>
-          <Mask />
-        </Route>
+          </Switch>
         </HashRouter>
     </div>
   );

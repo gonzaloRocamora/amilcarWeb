@@ -16,6 +16,7 @@ import monster1 from '../amilcarFotos/monster/monster1.jpeg';
 import princi1 from "../amilcarFotos/principito/principito1.jpeg";
 import queen1 from '../amilcarFotos/queen/queen1.jpeg';
 import renata1 from '../amilcarFotos/renata/renata1.jpeg'
+import mask1 from '../amilcarFotos/theMask/mask1.jpeg'
 import  {HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 //import { Swiper, SwiperSlide } from "swiper/react";
 import './store.css'
@@ -36,85 +37,88 @@ export default function Store() {
       <h3>Desliza para mas imagenes</h3>
      <div className="divImg">
     
-          <Link to="/pikachu">
+          <Link to="/artwork/pikachu">
           <img alt='PIKACHU' src={pikachu1}></img>
           </Link>
           
           
        
-          <Link onClick={() => console.log('click')} to="/morrison">
+          <Link onClick={() => console.log('click')} to="/artwork/morrison">
             <img alt='MORRISON' src={jim1}></img>
           </Link>
         
       
          
-          <Link to="/madona">
+          <Link to="/artwork/madona">
             <img alt='MADONA' src={madona1}></img>
           </Link>
          
 
          
-          <Link to="/pasionario">
+          <Link to="/artwork/pasionario">
             <img alt='PASIONARIO' src={pasio1}></img>
           </Link>
          
     
          
-          <Link to="/rico">
+          <Link to="/artwork/rico">
             <img alt='RICO' src={rico1}></img>
           </Link>
           
        
           
-          <Link to="/dog">
+          <Link to="/artwork/dog">
             <img alt='DOG' src={dog}></img>
           </Link>
           
 
       
-          <Link to="/antonieta">
+          <Link to="/artwork/antonieta">
             <img alt='antonieta' src={antonieta1}></img>
           </Link>
          
           
-          <Link to= '/bird'>
+          <Link to= '/artwork/bird'>
             <img alt='bird' src={bird1}/>
           </Link>
           
-          <Link to= '/elvis'>
+          <Link to= '/artwork/elvis'>
             <img alt='elvis' src={elvis1}/>
           </Link>
           
-          <Link to= '/frida'>
+          <Link to= '/artwork/frida'>
             <img alt='frida' src={frida1}/>
           </Link>
           
-          <Link to='/manu'>
+          <Link to='/artwork/manu'>
             <img alt='manu' src={manu1}/>
           </Link>
           
-          <Link to='/marilyn'>
+          <Link to='/artwork/marilyn'>
             <img alt='marilyn' src={marilyn1}/>
           </Link>
           
-          <Link to='/mazinger'>
+          <Link to='/artwork/mazinger'>
             <img alt='mazinger' src={mazinger1}/>
           </Link>
           
-          <Link to='/monster'>
+          <Link to='/artwork/monster'>
             <img alt='monster' src={monster1}/>
           </Link>
           
-          <Link to='/principito'>
+          <Link to='/artwork/principito'>
             <img alt='principito' src={princi1}/>
           </Link>
           
-          <Link to='/queen'>
+          <Link to='/artwork/queen'>
             <img alt='queen' src={queen1}/>
           </Link>
           
-          <Link to='/renata'>
+          <Link to='/artwork/renata'>
             <img alt='renata' src={renata1}/>
+          </Link>
+          <Link to='/artwork/mask'>
+            <img alt='renata' src={mask1}/>
           </Link>
  
       

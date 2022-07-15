@@ -9,7 +9,7 @@ import mask8 from "./mask8.jpeg";
 import mask9 from "./mask9.PNG";
 import mask10 from './mask10.PNG'
 
-const sliderPasionero = [
+const sliderMask = [
     mask1,
     mask2,
     mask3,
@@ -22,4 +22,4 @@ const sliderPasionero = [
     mask10
 ]
 
-export default sliderPasionero; 
+export default sliderMask; 

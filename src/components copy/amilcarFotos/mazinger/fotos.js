@@ -10,7 +10,7 @@ import mazinger9 from "./mazinger9.PNG";
 import mazinger10 from "./mazinger10.PNG";
 import mazinger11 from "./mazinger11.PNG";
 
-const sliderMorrison = [
+const sliderMazinger = [
   mazinger1,
   mazinger2,
   mazinger3,
@@ -23,4 +23,4 @@ const sliderMorrison = [
   mazinger10,
   mazinger11,
 ];
-export default sliderMorrison;
+export default sliderMazinger;
