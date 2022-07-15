@@ -45,7 +45,7 @@ function App() {
           <Route path="/Connect">
             <Connect />
           </Route>
-          <Route path="/pikachu">
+          <Route path="/Pikachu">
             <Pikachu />
           </Route>
           <Route path="/morrison">

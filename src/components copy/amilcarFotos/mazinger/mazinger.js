@@ -1,6 +1,6 @@
 import React from "react";
 import sliderMazinger from "./fotos";
-
+import "../styles.css"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -17,7 +17,9 @@ export default function Mazinger() {
     <h2>Morrison</h2>
     <h3>Desliza para mas imagenes</h3>
     <section>
-      <Swiper
+    <div className='divSwiper'>
+    
+    <Swiper
       effect={"cube"}
       grabCursor={true}
       cubeEffect={{
@@ -41,6 +43,8 @@ export default function Mazinger() {
         );
       })}
       </Swiper>
+    </div>
+      
     </section>
   </div>
   );

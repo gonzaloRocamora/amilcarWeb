@@ -1,6 +1,6 @@
 import React from "react";
 import sliderQueen from "./fotos";
-
+import "../styles.css"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -9,7 +9,8 @@ import "swiper/components/effect-cube/effect-cube.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import SwiperCore, { EffectCube, Pagination } from "swiper";
 SwiperCore.use([EffectCube, Pagination]);
-
+//import "../styles.css"
+//<div className='divSwiper'></div>
 export default function Queen() {
   
   return (
@@ -17,7 +18,8 @@ export default function Queen() {
     <h2>Morrison</h2>
     <h3>Desliza para mas imagenes</h3>
     <section>
-      <Swiper
+    <div className='divSwiper'>
+    <Swiper
       effect={"cube"}
       grabCursor={true}
       cubeEffect={{
@@ -41,6 +43,8 @@ export default function Queen() {
         );
       })}
       </Swiper>
+    </div>
+      
     </section>
   </div>
   );

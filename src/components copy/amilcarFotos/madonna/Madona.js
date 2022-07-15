@@ -1,5 +1,6 @@
 import React from "react";
 import sliderMadona from "./fotos";
+import "../styles.css"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -9,6 +10,8 @@ import "swiper/components/pagination/pagination.min.css";
 import SwiperCore, { EffectCube, Pagination } from "swiper";
 SwiperCore.use([EffectCube, Pagination]);
 
+//import "../styles.css"
+//<div className='divSwiper'></div>
 
 export default function Madona() {
   
@@ -18,7 +21,8 @@ export default function Madona() {
     <h2>Madona</h2>
     <h3>Desliza para mas imagenes</h3>
     <section>
-      <Swiper
+    <div className='divSwiper'>
+    <Swiper
       effect={"cube"}
       grabCursor={true}
       cubeEffect={{
@@ -42,6 +46,8 @@ export default function Madona() {
         );
       })}
       </Swiper>
+    </div>
+      
     </section>
   </div>
   );

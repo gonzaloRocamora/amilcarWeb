@@ -1,6 +1,6 @@
 import React from "react";
 import sliderMorrison from "./fotos";
-
+import "../styles.css"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -10,6 +10,7 @@ import "swiper/components/pagination/pagination.min.css";
 import SwiperCore, { EffectCube, Pagination } from "swiper";
 SwiperCore.use([EffectCube, Pagination]);
 
+
 export default function Morrison() {
   
   return (
@@ -17,7 +18,8 @@ export default function Morrison() {
     <h2>Morrison</h2>
     <h3>Desliza para mas imagenes</h3>
     <section>
-      <Swiper
+    <div className='divSwiper'>
+    <Swiper
       effect={"cube"}
       grabCursor={true}
       cubeEffect={{
@@ -41,6 +43,8 @@ export default function Morrison() {
         );
       })}
       </Swiper>
+    </div>
+      
     </section>
   </div>
   );
