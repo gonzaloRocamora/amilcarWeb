@@ -1,4 +1,4 @@
-import Antonieta from "./antonieta/antonieta"
+
 import sliderAntonieta from "./antonieta/fotos"
 import sliderPasionero from "./elPasionario/fotos"
 import sliderElvis from "./elvis/fotos"

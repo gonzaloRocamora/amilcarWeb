@@ -36,7 +36,7 @@ export default function Store() {
       <h2>Coleccion</h2>
       <h3>Desliza para mas imagenes</h3>
      <div className="divImg">
-    
+          //CADA UNA DE LOS LINKS QUE TIENEN ArtWork COMO COMMON PATH PARA DESPUES INDICAR EL NAME COMO PROP EN LA RUTA DE MI APP
           <Link to="/artwork/pikachu">
           <img alt='PIKACHU' src={pikachu1}></img>
           </Link>

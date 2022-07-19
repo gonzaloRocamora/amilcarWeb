@@ -1,6 +1,6 @@
 
 import React from "react";
-import sliderPikachu from "./pikachu/fotos";
+
 import { artWork } from "./objFotos";
 import {useParams } from 'react-router-dom';
 import "./styles.css";
