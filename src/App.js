@@ -10,7 +10,7 @@ import Connect from "./components copy/Connect";
 import "./style.css";
 
 import ArtWork from "./components copy/amilcarFotos/artWork.js";
-
+/*establezco una ruta comun(artwork) y le paso como parametro un name*(title de cada obra*/
 function App() {
   return (
     <div className="containerApp">
@@ -31,7 +31,7 @@ function App() {
           <Route path="/Connect">
             <Connect />
           </Route>
-                 /*establezco una ruta comun y le paso como parametro un name*/
+                 
           <Route path="/artwork/:name">
             <ArtWork />
           </Route>

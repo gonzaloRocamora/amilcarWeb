@@ -16,7 +16,7 @@ import sliderRenata from "./renata/fotos"
 import sliderDog from "./theDog/fotos"
 import sliderMask from "./theMask/fotos"
 import sliderRico from "./rico/fotos"
-export const artWork = {
+export const collection = {
     pikachu: {
         title: "Pikachu",
         fotos: sliderPikachu    

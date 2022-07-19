@@ -16,11 +16,15 @@ h2 {
   padding: 6px 0px 10px 0px;
 }
 
+#h2Home {
+  padding-bottom: 7vh;
+}
+
 .divHome {
   display: flex;
   align-items: center;
-  width: 70vw;
-  
+  width: 80vw;
+  max-width: 800px;
   border-radius: 5px;
   justify-content: space-between;
   height: auto;
@@ -28,22 +32,27 @@ h2 {
   background-color: rgba(8, 50, 240, 0.445);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
+  overflow: hidden;
 }
-.divPar {
- 
-  width: 40vw;
-  font-size: 1em;
+.divHome .divPar {
+  padding: 0px 50px 0px 50px;
+  width: 100%;
+  font-size: 1.5rem;
   color: rgb(0, 255, 255);
   font-family: cursive;
+  height: auto;
 }
 
-.divImg{
-  
-  width: 30vw;
-  
+.divPar h1{
+  font-size: 3rem;
 }
 
-@media screen and (max-width: 800px) {
+.divHome .divImg{
+  
+  width: 100%;
+}
+
+@media screen and (max-width: 870px) {
 .divImg{
     width: 100%;
     min-width: 100px;

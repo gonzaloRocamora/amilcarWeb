@@ -3,14 +3,14 @@ import homeImg from "./homeImg.jpg";
 export default function Home() {
   return (
     <div>
-      <h2>Welcome</h2>
+      <h2 id="h2Home">Welcome</h2>
 
       <div className="divHome">
         <div className="divImg">
           <img id="homeImg" src={homeImg} alt="amilcar"></img>
         </div>
         <div className="divPar">
-          <h1>
+          <h1 >
             Amilcar
           </h1>
           <p>

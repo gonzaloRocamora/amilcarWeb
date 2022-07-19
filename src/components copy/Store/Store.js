@@ -18,25 +18,16 @@ import queen1 from '../amilcarFotos/queen/queen1.jpeg';
 import renata1 from '../amilcarFotos/renata/renata1.jpeg'
 import mask1 from '../amilcarFotos/theMask/mask1.jpeg'
 import  {HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-//import { Swiper, SwiperSlide } from "swiper/react";
 import './store.css'
-//import "swiper/swiper.min.css";
 
-//import "swiper/components/pagination/pagination.min.css";
-
-// import Swiper core and required modules
-//import SwiperCore, { Pagination} from "swiper";
-
-// install Swiper modules
-//SwiperCore.use([Pagination]);
-
+//CADA UNA DE LOS LINKS QUE TIENEN ArtWork COMO COMMON PATH PARA DESPUES INDICAR EL NAME COMO PROP EN LA RUTA DE MI APP
 export default function Store() {
   return (
     <div className="divStore">
       <h2>Coleccion</h2>
       <h3>Desliza para mas imagenes</h3>
      <div className="divImg">
-          //CADA UNA DE LOS LINKS QUE TIENEN ArtWork COMO COMMON PATH PARA DESPUES INDICAR EL NAME COMO PROP EN LA RUTA DE MI APP
+          
           <Link to="/artwork/pikachu">
           <img alt='PIKACHU' src={pikachu1}></img>
           </Link>
@@ -49,8 +40,8 @@ export default function Store() {
         
       
          
-          <Link to="/artwork/madona">
-            <img alt='MADONA' src={madona1}></img>
+          <Link to="/artwork/madonna">
+            <img alt='MADONNA' src={madona1}></img>
           </Link>
          
 
